@@ -1,2 +1,2 @@
-require 'sinatra'
-ruby '2.3.0'
+gem 'sinatra'
+ruby '2.3.1'
