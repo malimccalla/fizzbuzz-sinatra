@@ -5,6 +5,6 @@ def fizzbuzz(number)
     return "'#{number}' fizzed is fizzbuzz!" if (number % 5 == 0) && (number % 3 == 0)
     number
   else
-    return "Error: Please enter positive number"
+    return "Error: Please enter a positive number"
   end
 end
