@@ -1,2 +1,3 @@
-require File.dirname(__FILE__) + "/main"
+require './app'
+
 run Sinatra::Application
