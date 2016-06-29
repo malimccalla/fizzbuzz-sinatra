@@ -8,3 +8,12 @@ def fizzbuzz(number)
     return "Error: Please enter a positive number"
   end
 end
+
+
+def fizz_color(fizzed_number)
+  fizzed_number == "'#{@number}' fizzed is Fizz!" ||  fizzed_number == "'#{@number}' fizzed is FizzBuzz!" ? '#fefb96' : 'white'
+end
+
+def buzz_color(fizzed_number)
+  fizzed_number == "'#{@number}' fizzed is Buzz!" ||  fizzed_number == "'#{@number}' fizzed is FizzBuzz!" ? '#fefb96' : 'white'
+end

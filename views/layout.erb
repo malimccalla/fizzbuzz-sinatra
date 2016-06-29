@@ -42,7 +42,7 @@
   <body>
     <div class="container text-center">
       <div class="col-sm-6 col-sm-offset-3">
-        <h1> FIZZBUZZ</h1>
+        <h1> <span style="color: <%= fizz_color(@fizzed_number)%>;">FIZZ</span><span style="color: <%=buzz_color(@fizzed_number)%>;">BUZZ</span> </h1>
         <%= yield %>
       </div>
     </div>
