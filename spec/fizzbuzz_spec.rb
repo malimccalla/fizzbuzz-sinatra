@@ -15,7 +15,7 @@ describe 'fizzbuzz' do
   end
 
   it 'returns "1" when passed 1' do
-    expect(fizzbuzz(1)).to eq(1)
+    expect(fizzbuzz(1)).to eq("'1' fizzed is still just '1' :(")
   end
 
   it 'returns "fizz" when number is divisible by 3 but not 5' do
@@ -31,7 +31,7 @@ describe 'fizzbuzz' do
   end
 
   it 'returns number if number is not divisible by 3 or 5' do
-    expect(fizzbuzz(2)).to eq(2)
+    expect(fizzbuzz(2)).to eq("'2' fizzed is still just '2' :(")
   end
 
 end

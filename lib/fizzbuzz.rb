@@ -3,7 +3,7 @@ def fizzbuzz(number)
     return "'#{number}' fizzed is fizz!" if (number % 3 == 0) && (number % 5 != 0)
     return "'#{number}' fizzed is buzz!" if (number % 5 == 0) && (number % 3 != 0)
     return "'#{number}' fizzed is fizzbuzz!" if (number % 5 == 0) && (number % 3 == 0)
-    number
+    return "'#{number}' fizzed is still just '#{number}' :("
   else
     return "Error: Please enter a positive number"
   end
